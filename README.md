@@ -1,5 +1,11 @@
 # Solved-Tasks
-* task 1
+####For Twins: 2. Math operations
 ```javascript
-const a = 123;
+function iceBrickVolume(radius, bottleLength, rimLength) {
+  let h = bottleLength - rimLength;
+  let a = Math.sqrt(2) * radius;
+  let volume = a ** 2 * h;
+  volume  = Math.floor(volume);
+  return volume;
+}
 ```
