@@ -1,17 +1,25 @@
 # Solved-Tasks
-   ####Multiple of index
+   ####I love you, a little , a lot, passionately ... not at all
    ```javascript
-   function multipleOfIndex(array) {
-     return array.filter((num, i) => num % i === 0);
+   function howMuchILoveYou(nbPetals) {
+       const fl = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
+       return fl[(nbPetals - 1) % 6]
    }
    ```
-   ####Generate range of integers
+   ####Third Angle of a Triangle
    ```javascript
-   function generateRange(min, max, step){
-     const arr = [];
-     for (let i = min; i <= max; i += step){
-     arr.push(i)
-     }
-     return arr;
+   function otherAngle(a, b) {
+     let c = 180  - a - b;
+     return c;
    }
+   ```
+  ####For Twins: 2. Math operations
+   ```javascript
+    function iceBrickVolume(radius, bottleLength, rimLength) {
+      let h = bottleLength - rimLength;
+      let a = Math.sqrt(2) * radius;
+      let volume = a ** 2 * h;
+      volume  = Math.floor(volume);
+      return volume;
+    }
    ```
