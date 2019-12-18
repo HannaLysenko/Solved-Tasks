@@ -1,25 +1,23 @@
 # Solved-Tasks
-   ####I love you, a little , a lot, passionately ... not at all
+   ####Breaking chocolate problem
+```javascript
+    function breakChocolate(n,m) {
+     let bar = n * m - 1;
+     if ( bar < 0) return 0;
+     return bar;
+   }
+```
+   ####Sum of angles
    ```javascript
-   function howMuchILoveYou(nbPetals) {
-       const fl = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
-       return fl[(nbPetals - 1) % 6]
+   function angle(n) {
+     if (n >= 3)
+     return (n - 2) * 180;
    }
    ```
-   ####Third Angle of a Triangle
+  ####Convert boolean values to strings 'Yes' or 'No'.
    ```javascript
-   function otherAngle(a, b) {
-     let c = 180  - a - b;
-     return c;
-   }
-   ```
-  ####For Twins: 2. Math operations
-   ```javascript
-    function iceBrickVolume(radius, bottleLength, rimLength) {
-      let h = bottleLength - rimLength;
-      let a = Math.sqrt(2) * radius;
-      let volume = a ** 2 * h;
-      volume  = Math.floor(volume);
-      return volume;
+    function boolToWord( bool ){
+     if (bool === true) return "Yes";
+     return "No"
     }
    ```
