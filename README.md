@@ -1,23 +1,8 @@
 # Solved-Tasks
-   ####Breaking chocolate problem
+   ####Super Duper Easy
 ```javascript
-    function breakChocolate(n,m) {
-     let bar = n * m - 1;
-     if ( bar < 0) return 0;
-     return bar;
-   }
+function problem(x){
+  if (typeof x == 'string') return "Error";
+  return (x * 50 + 6);
+}
 ```
-   ####Sum of angles
-   ```javascript
-   function angle(n) {
-     if (n >= 3)
-     return (n - 2) * 180;
-   }
-   ```
-  ####Convert boolean values to strings 'Yes' or 'No'.
-   ```javascript
-    function boolToWord( bool ){
-     if (bool === true) return "Yes";
-     return "No"
-    }
-   ```
