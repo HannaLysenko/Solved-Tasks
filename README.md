@@ -1,8 +1,23 @@
 # Solved-Tasks
-   ####Super Duper Easy
+   ####Type of sum
 ```javascript
-function problem(x){
-  if (typeof x == 'string') return "Error";
-  return (x * 50 + 6);
+function typeOfSum(a, b) {
+  return typeof (a + b);
+}
+```
+   ####Convert a Number to a String!
+```javascript
+function numberToString(num) {
+  return (String(num));
+}
+```
+   ####Number toString
+```javascript
+const a = 123..toString();
+```
+   ####Convert a String to a Number!
+```javascript
+const stringToNumber = function(str){
+  return +str;
 }
 ```
