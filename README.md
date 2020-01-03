@@ -1,14 +1,21 @@
 # Solved-Tasks
-   #### Convert a Boolean to a String
+   #### Discover The Original Price
 ```javascript
-function booleanToString(b){
-  if (b === true) return String(b);
-  return String(b);
+function discoverOriginalPrice(discountedPrice, salePercentage){
+  return +(discountedPrice * 100 / (100 - salePercentage)).toFixed(2);
 }
 ```
-  #### Sum The Strings
+  #### Formatting decimal places #0
  ```javascript
-function sumStr(a,b) {
-  return String(+a + +b);
+function twoDecimalPlaces(n) {
+  return +n.toFixed(2);
+}
+```
+  #### Area of a Square
+ ```javascript
+function squareArea(A){
+  const cir = 4 * A;
+  const r = cir / (2 * Math.PI);
+  return +Math.pow (r, 2).toFixed(2);
 }
 ```
