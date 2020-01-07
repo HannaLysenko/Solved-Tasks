@@ -1,21 +1,14 @@
 # Solved-Tasks
-   #### Discover The Original Price
+   #### Count Odd Numbers below n
 ```javascript
-function discoverOriginalPrice(discountedPrice, salePercentage){
-  return +(discountedPrice * 100 / (100 - salePercentage)).toFixed(2);
+function oddCount(n){
+  return Math.floor(n / 2);
 }
 ```
-  #### Formatting decimal places #0
+  #### Century From Year
  ```javascript
-function twoDecimalPlaces(n) {
-  return +n.toFixed(2);
+function century(year) {
+  return Math.floor((year - 1) / 100 + 1)
 }
 ```
-  #### Area of a Square
- ```javascript
-function squareArea(A){
-  const cir = 4 * A;
-  const r = cir / (2 * Math.PI);
-  return +Math.pow (r, 2).toFixed(2);
-}
-```
+ 
