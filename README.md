@@ -1,15 +1,10 @@
 # Solved-Tasks
-   #### Count Odd Numbers below n
+   #### How many times should I go?
 ```javascript
-function oddCount(n){
-  return Math.floor(n / 2);
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice / individualPrice);
 }
 ```
-  #### Century From Year
- ```javascript
-function century(year) {
-  return Math.floor((year - 1) / 100 + 1)
-}
-```
+
  
  
