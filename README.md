@@ -13,17 +13,17 @@ function hoopCount (n) {
 }
 ```
  
-   #### Chuck Norris VII - True or False? (Beginner)
+   #### Simple Comparison?
  ```javascript
-function ifChuckSaysSo(){
-  return 5 === 6
+function add(a, b){
+  return a == b ? true : false;
 }
  ```
 
-   #### Is he gonna survive?
+   #### Even or Odd
  ```javascript
-function hero(bullets, dragons){
-  return bullets / 2 >= dragons ? true : false
+function even_or_odd(number) {
+  return number % 2 == 0 ? 'Even' : 'Odd';
 }
  ```
  
